@@ -65,49 +65,22 @@ ${LIBS}
 )
 
 # Node for stereo camera
-#rosbuild_add_executable(Stereo
-#src/ros_stereo.cc
-#)
+# rosbuild_add_executable(Stereo
+# src/ros_stereo.cc
+# )
 
-#target_link_libraries(Stereo
-#${LIBS}
-#)
+# target_link_libraries(Stereo
+# ${LIBS}
+# )
 
 # Node for RGB-D camera
-#rosbuild_add_executable(RGBD
-#src/ros_rgbd.cc
-#)
+# rosbuild_add_executable(RGBD
+# src/ros_rgbd.cc
+# )
 
-#target_link_libraries(RGBD
-#${LIBS}
-#)
-
-########## 
-
-# Node for usb camera
-#rosbuild_add_executable(usb_mono
-#src/ros_mono_usb.cc
-#)
-
-#target_link_libraries(usb_mono
-#${LIBS}
-#)
-
-# Node for zed stereo camera
-#rosbuild_add_executable(zed_stereo
-#src/ros_stereo_zed.cc
-#)
-
-#target_link_libraries(zed_stereo
-#${LIBS}
-#)
+# target_link_libraries(RGBD
+# ${LIBS}
+# )
 
 
-# Node for tx2
-rosbuild_add_executable(tx2
-src/tx2.cpp
-)
 
-target_link_libraries(tx2
-${LIBS}
-)
